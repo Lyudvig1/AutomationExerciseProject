@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/USER122333/Documents/AutomationExercises">
+        <classes>
+            <class name="test.PlaceOrderWithLoginBeforeCheckoutTest">
+                <methods>
+                    <include name="orderAfterLogin"/>
+                </methods>
+            </class>
+            <class name="test.ScrollUpDownTest">
+                <methods>
+                    <include name="verifyScrollUpDownWithArrowButton"/>
+                </methods>
+            </class>
+            <class name="test.SearchProductTest">
+                <methods>
+                    <include name="searchProduct"/>
+                </methods>
+            </class>
+            <class name="test.SignupTest">
+                <methods>
+                    <include name="signUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
