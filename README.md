@@ -11,7 +11,6 @@ These instructions will help you set up and run the project on your local machin
 
 - Java Development Kit (JDK)
 - Maven
-- Allure Command-Line Tool
 - Chrome WebDriver (chromedriver)
 - Adblock extension
 
@@ -20,7 +19,7 @@ These instructions will help you set up and run the project on your local machin
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/selenium-maven-java-testng.git
+   git clone https://github.com/Lyudvig1/AutomationExerciseProject.git
 
 2. Navigate to the project directory:
 
