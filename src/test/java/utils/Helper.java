@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
+import testdata.StaticData;
 import static testdata.DynamicData.*;
 
 public class Helper {
@@ -40,7 +40,7 @@ public class Helper {
     }
 
     public static void sendCreateAccountAPIRequest(String email, String password) throws Exception {
-        String apiUrl = "https://automationexercise.com/api/createAccount";
+        String apiUrl = StaticData.BASE_URL+"api/createAccount";
 
         // Form data parameters
         String formData = "name=llllllllpp"
@@ -79,7 +79,7 @@ public class Helper {
     }
 
     public static void sendDeleteAccountAPIRequest(String email, String password) throws Exception {
-        String apiUrl = "https://automationexercise.com/api/deleteAccount";
+        String apiUrl = StaticData.BASE_URL+"api/deleteAccount";
 
         String formData = "email=" + email + "&password=" + password;
 
