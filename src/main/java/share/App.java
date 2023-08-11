@@ -9,15 +9,15 @@ import pages.*;
  */
 public class App {
     protected WebDriver driver;
-    public HomePage homePage;
-    public LoginPage loginPage;
-    public SignUpPage signUpPage;
-    public DeleteAccountPage deleteAccountPage;
-    public AccountCreatedPage accountCreatedPage;
-    public ProductsPage productsPage;
-    public CartPage cartPage;
-    public CheckoutPage checkoutPage;
-    public PaymentPage paymentPage;
+    public static HomePage homePage;
+    public static LoginPage loginPage;
+    public static SignUpPage signUpPage;
+    public static DeleteAccountPage deleteAccountPage;
+    public static AccountCreatedPage accountCreatedPage;
+    public static ProductsPage productsPage;
+    public static CartPage cartPage;
+    public static CheckoutPage checkoutPage;
+    public static PaymentPage paymentPage;
 
     public App(WebDriver driver) {
         this.driver = driver;
